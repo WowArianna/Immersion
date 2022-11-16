@@ -148,6 +148,7 @@ function frame:FadeOut(fadeTime, ignoreOnTheFly)
 	RestoreFadedFrames(self)
 	if L('hideui') and L('camerarotationenabled') then 
 		MoveViewRightStop(0)
+		C_VoiceChat.StopSpeakingText()
 	end
 end
 
