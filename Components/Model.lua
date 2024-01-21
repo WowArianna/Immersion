@@ -64,8 +64,8 @@ function Model:ApplyModelFromUnit(unit)
 		local mt = getmetatable(self).__index
 		local creatureID = tonumber(unit) -- or API:GetCreatureID(unit)
 		local apply = creatureID and mt.SetCreature or unit and mt.SetUnit
-		self:SetCamDistanceScale(1)
-		self:SetPortraitZoom(.85)
+		--self:SetCamDistanceScale(1)
+		--self:SetPortraitZoom(.85)
 		self:SetPosition(0, 0, 0)
 		if apply then
 			apply(self, creatureID or unit)

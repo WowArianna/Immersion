@@ -821,21 +821,13 @@
 						</Layers>
 						<Frames>
 							<PlayerModel parentKey="Model" alpha="1">
-								<Size x="115" y="115"/>
+								<Size x="500" y="500"/>
 								<Anchors>
-									<Anchor point="TOPLEFT" x="21" y="-21"/>
+									<Anchor point="BOTTOMLEFT" x="-125" y="125"/>
 								</Anchors>
 								<Layers>
 									<Layer level="BACKGROUND">
 										<Texture parentKey="PortraitBG" hidden="false" alphaMode="BLEND" atlas="TalkingHeads-PortraitBg" useAtlasSize="true">
-											<Anchors>
-												<Anchor point="TOPLEFT"/>
-											</Anchors>
-										</Texture>
-									</Layer>
-									<Layer level="ARTWORK" textureSubLevel="-2">
-										<Texture parentKey="ModelShadow" atlas="Artifacts-BG-Shadow">
-											<Size x="115" y="115"/>
 											<Anchors>
 												<Anchor point="TOPLEFT"/>
 											</Anchors>
