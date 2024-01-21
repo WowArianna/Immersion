@@ -823,7 +823,7 @@
 							<PlayerModel parentKey="Model" alpha="1">
 								<Size x="500" y="500"/>
 								<Anchors>
-									<Anchor point="BOTTOMLEFT" x="-125" y="125"/>
+									<Anchor point="CENTER" x="-250" y="125"/>
 								</Anchors>
 								<Layers>
 									<Layer level="BACKGROUND">
